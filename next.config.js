@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   // disableStaticImages: true,
   images: {
-    loader: 'custom',
+    domains: ['res.cloudinary.com'],
   },
 }
 
