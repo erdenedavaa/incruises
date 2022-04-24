@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  // reactStrictMode: true,
   // disableStaticImages: true,
   images: {
+    loader: 'cloudinary',
     domains: ['res.cloudinary.com'],
   },
 }

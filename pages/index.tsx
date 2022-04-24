@@ -28,7 +28,7 @@ const Home: NextPage = () => {
               src='https://res.cloudinary.com/duhimfgy0/image/upload/v1637913455/small_event4_e057e57ab0.jpg'
               alt='Cloudinary image'
               width={272}
-              height={216}
+              // height={216}
             />
           </span>
         </a>
